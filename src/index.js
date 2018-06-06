@@ -7,7 +7,7 @@ const state = [
 ]
 
 const action = {
-    type: C.ADD_ERROR,
+    type: C.CLEAR_ERROR,
     payload: "cannot connect to the server"
 }
 
