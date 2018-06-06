@@ -1,0 +1,25 @@
+{
+  "name": "tutoriallearningredux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leontheprofessional7/TutorialLearningRedux.git"
+  },
+  "tutor": "Alex Banks",
+  "author": "Leon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leontheprofessional7/TutorialLearningRedux/issues"
+  },
+  "homepage": "https://github.com/leontheprofessional7/TutorialLearningRedux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
