@@ -2,7 +2,7 @@ import C from '../constants'
 
 export const goal = (state = 10, action) =>
     (action.type === C.SET_GOAL) ?
-        oarseInt(action.payload) :
+        parseInt(action.payload) :
         state
 
 export const skiDay = (state = null, action) =>
